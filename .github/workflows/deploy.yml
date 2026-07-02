@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Flet web app
         run: |
-          flet build web --base-url /tic-tac-toe-ai/
+          flet build web --base-url /tic-tac-toe-ai/ --yes --no-rich-output
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
